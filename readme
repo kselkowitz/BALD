@@ -1,0 +1,17 @@
+The attached script will change dial permissions on a netsapiens SNAPsolution softswitch based on voipmonitor reaching a billing limit. See https://www.voipmonitor.org/doc/Billing for more info.
+
+1) Load the script to your QoS server
+
+2) Make the script executable 
+chmod +x billinglimit.php
+
+3) In your Alert with type Watchdog: billing over quota
+Ensure summary is NOT checked
+In the external script field enter the path to your script and filename e.g. /home/ubuntu/billinglimit.php
+
+CYA
+This sample code is NOT provided, developed, or supported by netsapiens. 
+
+This code is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
