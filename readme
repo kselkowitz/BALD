@@ -1,3 +1,5 @@
+Billing Access Limit per Domain
+
 The attached script will change dial permissions for a domain on a netsapiens SNAPsolution softswitch based on voipmonitor reaching a billing limit. See https://www.voipmonitor.org/doc/Billing for more info.
 
 1) Update your voipmonitor GUI so you get the new feature to aggregate costs by domain. 
